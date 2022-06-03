@@ -6,7 +6,7 @@ comp_score = 0
 print("Welcome my Friend, you have to score 50 points before computer does it to WIN!!")
 
 while True:
-
+    
     if comp_score >= 50 or player_score >= 50:
         break
 
@@ -25,7 +25,7 @@ while True:
         print(f"Computer's Dice = {comp}")
         comp_score += comp
         print(f"Computer's score = {comp_score}")
-
+    
     elif dice == "n":
         break
     elif dice == "":
@@ -34,7 +34,7 @@ while True:
     else:
         print("Please enter valid alphabet '(y/n)'")
         False
-
+  
 if comp_score >= 50:
     print("Computer won!! Better  luck next time :)")
 
